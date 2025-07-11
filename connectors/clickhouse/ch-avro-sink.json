@@ -1,0 +1,26 @@
+{
+    "name": "clickhouse-connect",
+    "config": {
+        "connector.class": "com.clickhouse.kafka.connect.ClickHouseSinkConnector",
+        "tasks.max": "1",
+        "consumer.override.max.poll.records": "5000",
+        "consumer.override.max.partition.fetch.bytes": "5242880",
+        "database": "default",
+        "errors.retry.timeout": "60",
+        "exactlyOnce": "false",
+        "hostname": "nrqly4tyln.eu-central-1.aws.clickhouse.cloud",
+        "port": "8443",
+        "ssl": "true",
+        "jdbcConnectionProperties": "?ssl=true&sslmode=strict",
+        "username": "default",
+        "password": "k5AULN.2aROnX",
+        "topics": "mysql_kafka.mydb.sensor_data,mysql_kafka.mydb.alerts,mysql_kafka.mydb.device_status",
+
+
+
+        "value.converter": "io.confluent.connect.avro.AvroConverter",
+        "value.converter.schema.registry.url": "http://schema-registry:8081",
+        "value.converter.schemas.enable": "true"
+
+    }
+}
