@@ -1,11 +1,14 @@
-# Kafka_Streaming_Mysql_to_ClikHouse
-## 🚀 Real-Time Data Streaming Pipeline: MySQL → ClickHouse Cloud
+# 🚀 Real-Time Data Streaming Pipeline: MySQL → ClickHouse Cloud
 
 This project demonstrates a **real-time data streaming pipeline** that captures live changes from **MySQL** and streams them into **ClickHouse Cloud** for lightning-fast analytics.
 It uses **Python, Debezium, Kafka, Kafka Connect, and Docker Compose** to build a scalable, containerized solution.
 
 ---
+## 📸 Architecture Overview  
 
+![Pipeline Architecture](./images/pipeline-architecture.png)  
+
+---
 ## 📌 Project Overview
 
 The pipeline enables **continuous data flow** from source to destination with minimal latency:
@@ -29,23 +32,4 @@ The pipeline enables **continuous data flow** from source to destination with mi
 - ✅ **ClickHouse Cloud** – destination for real-time analytics  
 - ✅ **Docker Compose** – container orchestration  
 
----
-
-## ⚙️ Pipeline Workflow
-
-```
-Python → MySQL → Debezium (CDC) → Kafka → Kafka Connect → ClickHouse Cloud
-```
-
----
-
-## 📂 Repository Structure
-
-```
-├── docker-compose.yml        # Orchestrates MySQL, Kafka, Debezium, Kafka Connect
-├── sensors.sql               # MySQL table schema
-├── data_producer.py          # Python script to generate & insert sensor data
-├── connect-config.json       # Kafka Connect ClickHouse sink configuration
-└── README.md                 # Project documentation
-```
 ---
