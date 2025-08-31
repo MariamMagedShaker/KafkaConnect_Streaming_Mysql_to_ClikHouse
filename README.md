@@ -20,7 +20,7 @@ The pipeline enables **continuous data flow** from source to destination with mi
 
 ## 🧩 Tech Stack
 
-✅ Python – data generation & insertion into MySQL
+✅ Python – data generation & insertion into MySQL 
 ✅ MySQL – source database
 ✅ Debezium – CDC from MySQL
 ✅ Apache Kafka – event streaming platform
