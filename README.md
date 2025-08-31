@@ -18,16 +18,16 @@ The pipeline enables **continuous data flow** from source to destination with mi
 
 ---
 
-## 🧩 Tech Stack
+## 🧩 Tech Stack  
 
-✅ Python – data generation & insertion into MySQL 
-✅ MySQL – source database
-✅ Debezium – CDC from MySQL
-✅ Apache Kafka – event streaming platform
-✅ Kafka Connect – integration framework
-✅ ClickHouse Sink Connector – loads data into ClickHouse Cloud
-✅ ClickHouse Cloud – destination for real-time analytics
-✅ Docker Compose – container orchestration
+- ✅ **Python** – data generation & insertion into MySQL  
+- ✅ **MySQL** – source database  
+- ✅ **Debezium** – CDC from MySQL  
+- ✅ **Apache Kafka** – event streaming platform  
+- ✅ **Kafka Connect** – integration framework  
+- ✅ **ClickHouse Sink Connector** – loads data into ClickHouse Cloud  
+- ✅ **ClickHouse Cloud** – destination for real-time analytics  
+- ✅ **Docker Compose** – container orchestration  
 
 ---
 
