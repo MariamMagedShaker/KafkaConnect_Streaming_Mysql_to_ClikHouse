@@ -6,7 +6,7 @@ It uses **Python, Debezium, Kafka, Kafka Connect, and Docker Compose** to build 
 ---
 ## 📸 Architecture Overview  
 
-![Pipeline Architecture](./images/pipeline-architecture.png)  
+![Pipeline Architecture](./architecture.jpeg)  
 
 ---
 ## 📌 Project Overview
